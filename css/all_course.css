@@ -285,6 +285,7 @@ a {
 }
 
 .section1-block-right {
+    width: 900px;
     position: relative;
     left: calc(99% - 900.2px);
     padding-left: 50px;
