@@ -358,6 +358,20 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
+    transform: translateX(-20px);
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .section2-bottom-description :nth-child(6) button {
